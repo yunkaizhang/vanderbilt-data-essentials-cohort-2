@@ -8,10 +8,11 @@ Building a Classifier
 
 Coding tasks:
  - What does the exploratory data analysis suggest about our question?
- - Can you find additional data that may help explain cost disparities
- - Select explanatory variables that may predict a target. You can use the cancer death rate per 100,000 people as a target or come up with your own.
- - Use `pd.get_dummies()` with your explanatory variables to encode any categorical values.
- - Split to train and test sets.
- - Build and evaluate a random forest classifier.
+ - Using existing features in the provided datasets or engineering new features from the existing ones, build a `RandomForestClassifier`
+    - Use `pd.get_dummies()` with your explanatory variables to encode any categorical values. Features for your model must be numeric.
+     - Split the data into train and test sets.
+    - Build and evaluate a random forest classifier.
+ - Think about other potential features that might explain cost disparities. Can you find additional data that may improve your classifier? The number of healthcare providers in a county, the number of healthcare facilities in a county, unemployment rates, or the per-person-income (which can be approximated using the number of exemptions in the IRS data) are potential features. Can you think of others?
+ 
 
     

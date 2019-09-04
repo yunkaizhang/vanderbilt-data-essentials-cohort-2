@@ -12,6 +12,6 @@ Exploratory Data Analysis
 
   3. Create two more barplots: one to show the total cost of a heart attack by county and the other to show the total cost of cancer by county
 
-  4. Create a second DataFrame for `tn_ha_costs`, keeping just these four columns:`county`, `urban`, `analysis_value`, `avg_income`. Create a `cost_income_ratio` column to compare the total cost (`analysis_value`) to the average annual income. Use the describe function to see the statistical description of the ratio. Repeat this for the cancer dataset.
+  4. Create a second DataFrame for `tn_ha_costs` - you can name it `tn_ha_costs2` or something similar - keeping just these four columns:`county`, `urban`, `analysis_value`, `avg_income`. Create a `cost_income_ratio` column to compare the total cost (`analysis_value`) to the average annual income. Use the `describe()` function to see the statistical description of the ratio. Repeat this for the cancer dataset.
 
-  5. Create additional plots to investigate the data (for example, you might color the bars by urban vs rural counties; create a cost/income ratio by dividing the total cost of care for a condition by the average income for TN counties; merge the cancer and heart attack cost data and create scatterplots to see if the total cost for cancer is commensurate with the total cost for heart attacks, etc.)
+  5. Create additional plots to investigate the data (for example, you might color the bars by urban vs rural counties; merge the cancer and heart attack cost data and create scatterplots to see if the total cost for cancer is correlated with the total cost for heart attacks, etc.)
